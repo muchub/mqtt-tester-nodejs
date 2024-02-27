@@ -6,7 +6,7 @@ client.on('connect', function () {
 
   // Publish a message to a topic
   const topic = 'test/topic';
-  const message = 'hi';
+  const message = 'Mr.Fresh';
   client.publish(topic, message);
 
   console.log(`Message published to ${topic}: ${message}`);
